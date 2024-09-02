@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Factorialofarray {
+    
     public static void main(String[] args) {
         Scanner oc=new Scanner(System.in);
         System.out.print("Enter array size:");
@@ -19,6 +20,10 @@ public class Factorialofarray {
         }
         System.out.println("array elements factorial:"+fact);
        
+        
+        
+            
+        
     }
 
 }
