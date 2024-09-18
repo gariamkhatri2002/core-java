@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class reversearrayelement {
+public class Reversearrayelement {
     static void reverse(int arrayelement[]){
         for(int i=0;i<arrayelement.length;i++){
             int sum=0,rem=0;

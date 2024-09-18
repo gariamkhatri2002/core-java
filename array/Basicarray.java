@@ -21,47 +21,47 @@ public class Basicarray{
       short h[]={123,456,789,147};
       System.out.println(h[3]);
       
-
-      /*var used
-       var a=new Object[]{
+       
+      // var used
+       var a1=new Object[]{
           23,2.3f,'u',45.9f,"regex"};
-        System.out.println(a[2]);
+        System.out.println(a1[2]);
         
-      */
+      
 
 
-      /*with Object class
+      // with Object class
 
-      Object a[]={12,45.6f,'k',"software",true,123.45698};
-      System.out.println(a[5]);
-      */
-
-
-      /*//with String
-
-      String a[]={"regex","komal","car","123","Rj14 ML0819"};
-      System.out.println(a[4]);
-      */
+      Object a2[]={12,45.6f,'k',"software",true,123.45698};
+      System.out.println(a2[5]);
+      
 
 
-      /*all wrapper class used 
-      Integer a[]={12,45,36,78};
-      System.out.println(a[1]);
-      Float b[]={2.5f,4.6f,47.2f};
-      System.out.println(b[1]);
-      Character c[]={'u',2,'o',45};
-      System.out.println(c[2]);
-      Long d[]={125l,48796l,236578l};
-      System.out.println(d[2]);
-      Double e[]={12.3654,456.2147,478.259};
-      System.out.println(e[0]);
-      Byte f[]={125,-110,78,-96};
-      System.out.println(f[3]);
-      Short g[]={1236,4789,5248};
-      System.out.println(g[1]);
-      Boolean h[]={true,false,false,true,true};
-      System.out.println(h[4]);
-      */
+      //with String
+
+      String a3[]={"regex","komal","car","123","Rj14 ML0819"};
+      System.out.println(a3[4]);
+      
+
+
+      // all wrapper class used 
+      Integer a4[]={12,45,36,78};
+      System.out.println(a4[1]);
+      Float b1[]={2.5f,4.6f,47.2f};
+      System.out.println(b1[1]);
+      Character c1[]={'u',2,'o',45};
+      System.out.println(c1[2]);
+      Long d1[]={125l,48796l,236578l};
+      System.out.println(d1[2]);
+      Double e1[]={12.3654,456.2147,478.259};
+      System.out.println(e1[0]);
+      Byte f1[]={125,-110,78,-96};
+      System.out.println(f1[3]);
+      Short g1[]={1236,4789,5248};
+      System.out.println(g1[1]);
+      Boolean h1[]={true,false,false,true,true};
+      System.out.println(h1[4]);
+      
 
     }
 }

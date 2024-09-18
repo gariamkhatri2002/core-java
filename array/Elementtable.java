@@ -4,11 +4,14 @@ public class Elementtable {
     static void arrayelementtable(int a[]){
         for(int i=0;i<a.length;i++){
             int table;
-            for(int j=1;j<=10;j++){
-                table=a[i]*j;
-                System.out.print(table+" ");
+            if(a[i]%2==1){
+                for(int j=1;j<=10;j++){
+                    table=a[i]*j;
+                    System.out.print(table+" ");
+                }
+                System.out.println();
             }
-            System.out.println();
+            
         }
     }
     public static void main(String[] args) {
