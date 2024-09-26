@@ -17,9 +17,9 @@ public class SumofEachRow {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         //INPUT NUMBER OF SIZE THROUGH ROW AND COLUMN 
-        System.out.print("Enter number of row:");
+        System.out.print("Enter number of rows:");
         int row=sc.nextInt();
-        System.out.print("Enter number of column:");
+        System.out.print("Enter number of columns:");
         int column=sc.nextInt();
         //create an array
         int a[][]=new int[row][column];
