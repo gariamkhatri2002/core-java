@@ -3,7 +3,7 @@ abstract class A{
         System.out.println("This is method " + n);
         return 0;
     }
-    abstract int show();
+    abstract int show();                 //abstract method declare only not defined
     void message(){
         System.out.println("Java is a programming language");
     }
@@ -17,7 +17,7 @@ abstract class A{
 class B extends A{
     void anonymousInnerClassBlock(){
         A obj= new A(){
-            int show(){
+            int show(){              //above abstract method defined inside anonymousinner class 
                 System.out.println("Abstract class A method show");
                 return 0;
             }
@@ -31,7 +31,7 @@ class B extends A{
         obj.print();
         obj.greet();
     }
-
+    //define abstract method inside class B
     int show(){
         System.out.println("Abstract class A method");
         return 0;
