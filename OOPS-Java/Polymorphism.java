@@ -1,9 +1,23 @@
 import java.util.Scanner;
-class A{
+class A{                           //different classes but method name same is method overriding
     A show(int a){
-        System.out.println("Class A method " + a);
+        System.out.println("Class A method "+a );
         return this;
 
+    }
+    //class same and method name also same is method overloading
+    int add(){
+        int a=10;                          //in this method zero parameter
+        int b=20;
+        System.out.print("addition of first method in class A:");
+        return a+b;
+    }
+    String add(int a,int b){              //declare two parameter to solve overloading problem
+        String name="Regex";
+        System.out.print("additon of second method in class A :");
+        System.out.println(a+b);
+        System.out.print("class A String name: ");
+        return name;
     }
 }
 class B extends A{
@@ -34,5 +48,7 @@ public class Polymorphism{
         C obC= new C();
         System.out.print("argument for class C: ");
         obC.show(sc.nextInt());
+        System.out.println(obB.add());
+        System.out.println(obB.add(50, 22));
     }
 }
