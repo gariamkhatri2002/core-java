@@ -6,10 +6,12 @@ public class Pattern10 {
         int size=oc.nextInt();
         int num=1;
         for(int i=1;i<=size;i++){
+            
             for(int j=1;j<=size;j++){
                 System.out.print(num+" ");
                 num++;
             }
+            
             System.out.println();
         }
     }
