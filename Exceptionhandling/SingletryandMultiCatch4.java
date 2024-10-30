@@ -1,5 +1,3 @@
-
-
 public class SingletryandMultiCatch4 {
     public static void main(String[] args) {
         try{
@@ -11,7 +9,7 @@ public class SingletryandMultiCatch4 {
         catch(Exception ex){
             System.out.println("exception handle");
         }
-        catch(ArithmeticException ex){
+        catch(ArithmeticException ex){                //gives error
             System.out.println("arithmetic handle");
         }
     }
