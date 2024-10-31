@@ -8,6 +8,7 @@ interface C{
     void print();
 }
 class B implements A,C{
+    //define A interface method and defined with public keyword
     public int show(int a){
         System.out.print("interface A method show :");
         return a;
@@ -16,6 +17,7 @@ class B implements A,C{
         System.out.println("interface A method print :"+name);
         return 0;
     }
+    //define C interface method
     public void show(){
         System.out.println("interface B method show");
     }
