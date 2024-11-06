@@ -1,11 +1,11 @@
 import java.util.Scanner;
-class A{                           //different classes but method name same is method overriding
+class A{                           //different classes but method name same called method overriding
     A show(int a){
         System.out.println("Class A method "+a );
         return this;
 
     }
-    //class same and method name also same is method overloading
+    //class same and method name also same calles method overloading
     int add(){
         int a=10;                          //in this method zero parameter
         int b=20;
