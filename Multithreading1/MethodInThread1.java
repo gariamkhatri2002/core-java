@@ -1,4 +1,4 @@
-package Mutlithreading1;
+
 
 class A extends Thread{
     public void run(){                        //then run class A thread
