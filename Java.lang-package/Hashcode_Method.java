@@ -1,3 +1,4 @@
+//It returns an integer value which represents hashCode value for this Method.
 public class Hashcode_Method {
     int a;
     Hashcode_Method(int a){
