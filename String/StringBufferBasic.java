@@ -1,4 +1,4 @@
-//The StringBuffer class in Java is the same as String class except it is mutable i.e. it can be changed.
+//The StringBuffer class in Java is the same as String class except it is mutable.
 public class StringBufferBasic {
     public static void main(String[] args) {
         StringBuffer sb=new StringBuffer("garima");
