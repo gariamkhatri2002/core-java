@@ -8,6 +8,8 @@ public class StringBufferBasic {
         StringBuffer sc=new StringBuffer("komal");
         sc.append(sb);
         System.out.println(sc);
+
+        
         
     }
 }
