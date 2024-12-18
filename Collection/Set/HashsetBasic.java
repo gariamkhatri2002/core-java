@@ -9,15 +9,21 @@ public class HashsetBasic {
         ll.add(40);
         //does not contain duplicate values
         ll.add(30);
+        System.out.println(ll.add(20));    //false because this element already exsiting
+
         System.out.print(ll);
         System.out.println();
         for(int i:ll){
             System.out.print(i+" ");
         }
         System.out.println();
+        
+        
         Iterator itr=ll.iterator();
         while(itr.hasNext()){
             System.out.print(itr.next()+" ");
         }
+        
+            
     }
 }
