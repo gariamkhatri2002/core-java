@@ -25,5 +25,6 @@ public class ValidParenthesis {
         System.out.print("Enter string:");
         String s=oc.nextLine();
         countparenthesis(s);
+        
     }
 }
