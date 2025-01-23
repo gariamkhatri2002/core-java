@@ -30,5 +30,6 @@ public class LinkedHashsetBasic {
         for(int p:lh1){
             System.out.print(p+" ");
         }
+        
     }
 }
